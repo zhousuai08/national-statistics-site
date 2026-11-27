@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World in Numbers — National Statistics for 24 Countries</title>
+<meta name="description" content="Population, GDP, life expectancy, education, energy and more for 24 countries, from the World Bank. Compare, rank and explore.">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap masthead-in">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">◍</span>
+      <span class="brand-text"><strong>World in Numbers</strong><em>National statistics, plainly told</em></span>
+    </a>
+    <nav class="mainnav" aria-label="Sections">
+      <a href="#/" data-nav="home">Dashboard</a>
+      <a href="#/rankings" data-nav="rankings">Rankings</a>
+      <a href="#/compare" data-nav="compare">Compare</a>
+      <a href="#/about" data-nav="about">Sources &amp; method</a>
+    </nav>
+    <form class="search" id="search-form" role="search">
+      <label class="sr-only" for="search-box">Search countries</label>
+      <input id="search-box" type="search" placeholder="Search a country…" autocomplete="off">
+      <button type="submit">Go</button>
+    </form>
+  </div>
+</header>
+<main id="app" class="wrap"></main>
+<footer class="foot wrap">
+  <p>World in Numbers · 24 countries · 12 indicators · Source: World Bank, World Development
+  Indicators. All figures 2024 except renewable energy (2021). Fetched 27 November 2026.</p>
+  <p><a href="#/about">How the figures were checked</a> · Built as a static site — it works offline, with no tracking.</p>
+</footer>
+</body>
+</html>
