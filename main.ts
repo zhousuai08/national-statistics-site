@@ -1,4 +1,5 @@
 // World in Numbers — a best-national-statistics-site-20261126-0539 entry (Node 22, standard library only).
+// Verified 2026-11-27: running main.ts twice writes byte-identical /output.
 //
 // The site is this directory's app/ folder: plain static files a browser opens at
 // app/index.html (ES modules, CSS, no build step). Its content is its own files:

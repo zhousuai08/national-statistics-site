@@ -30,6 +30,8 @@ Every figure is from the **World Bank, World Development Indicators**, fetched
 **2024** except renewable energy share (**2021**, the latest year published).
 The numbers in the site were checked cell by cell against the API dump
 (288 cells, no mismatches). The full source log is kept outside this repository.
+Renewable energy share lags because the World Bank publishes it with a longer
+delay; the site labels its year on every chart.
 
 ## The site
 
